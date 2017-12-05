@@ -120,7 +120,7 @@ font-size:12px;
 .buttonface{BACKGROUND: #0061A2; border:1 solid graytext; COLOR: #FFFFFF; FONT-SIZE: 12pt; FONT-STYLE: normal; FONT-VARIANT: normal; FONT-WEIGHT: bold; HEIGHT: 24px; LINE-HEIGHT: normal}
 
 #chromemenu{
-  width: 920px;
+  width: 1000px;
   font-weight: bold;
   font-size: 90%;
   margin: 0px;
@@ -150,7 +150,7 @@ display: inline;
 
 #chromemenu ul li a{
 color: #494949;
-padding: 4px;
+padding: 1px;
 margin: 0;
 text-decoration: none;
 border-right: 1px solid #DADADA;
@@ -171,21 +171,21 @@ color:#999999;
 .c1{
 background:url(../images/tal4.jpg) repeat-x bottom; height:140px; margin: 0px; padding: 0px;
 }
-.c1_1{margin:0px auto; width:980px; height:140px;}
+.c1_1{margin:0px auto; width:1060px; height:140px;}
 .c1_left{width:31px; height:140px; float:left; background:url(../images/row1_l.jpg) no-repeat bottom;}
 .c1_m{height:100px; overflow:hidden;padding:1px; margin:0px;}
-.c1_md{width:920px; height:140px; float:left;background: #FFFFFF url(../images/row1_c.jpg) repeat-x bottom;}
+.c1_md{width:1000px; height:140px; float:left;background: #FFFFFF url(../images/row1_c.jpg) repeat-x bottom;}
 .c1_logo{text-align:left; margin:2px; padding:5px;}
 .c1_dh{height:37px; overflow:hidden; padding:10px 0px 0px 0px; margin:0px;}
 .c1_right{width:29px; height:140px; float:left; background:url(../images/row1_r.jpg) no-repeat bottom;}
 
 .c2{background:url(../images/cbg.jpg); margin:0px; padding:0px;}
-.c2_mdbg{margin:0px auto; width:980px;  padding: 0px;}
+.c2_mdbg{margin:0px auto; width:1060px;  padding: 0px;}
 .c2_cmbg{margin:0px 29px 0px 31px; padding-top:3px;background-color: #fff;  padding-bottom:0px; padding-left:0px; padding-right:0px;}
 .c2_pt{clear:both; margin:0px; padding:0px 5px 0px 5px; height:20px; text-align:right;}
 
 .c3{height:120px; background:url(../images/tal5.jpg) repeat-x; margin:0px; padding:0px;}
-.c3_mdbg{margin:0px auto; width:980px; height:120px; background:url(../images/row3.jpg) no-repeat;}
+.c3_mdbg{margin:0px auto; width:1060px; height:120px; background:url(../images/row3.jpg) no-repeat;}
 .c3_dh{
   padding-top:10px;
   text-align: center;
@@ -692,6 +692,55 @@ text-decoration:none;
 .logotu{
   margin: -8px;
 }
+.tutu{
+  border: 1px solid #fff;
+}
+.damotai{
+margin-left:29%;
+display: inline-block;
+background-color:rgba(196,35,72,1);
+color: #fff; 
+    padding: 4px 15px;
+}
+.toubu1{
+  background-color: #ccc;
+  padding: 2px;
+}
+.toubuwenz{
+  color: rgb(196,35,72);
+  font-weight: 700;
+  margin-left: 20px;
+  font-size: 12px; 
+}
+.biaoge11{
+  width: 47%;
+  border: 1px solid #ccc;
+  float: left;
+  margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.biaoge1{
+  width: 100%;
+
+}
+.xiaobiaozha{
+padding:0 20px;
+}
+
+.biaogetou{
+      margin-left: 5px;
+      font-size:18px;
+      margin-top:0px;
+      margin-bottom:0px;  
+      background-color: red(237,235,235);
+}
+.biaogetou1{
+  background-color: #f3eeee;
+}
+.biaohan{
+   background-color:#f3eeee;
+}
  @media(max-width:  1024px){
 
  .c1{
@@ -704,8 +753,25 @@ text-decoration:none;
        width: 1024px;
  }
  .c1_1{
-       width: 980px;
+       width: 1000px;
  }
+ .c1_left{
+  display: none;
+
+ }
+ .c1_right{
+  display: none;
+ }
+ .c2_mdbg{
+
+   width: 1000px;
+   }
+   .c2_cmbg{
+    margin: 0px;
+   }
+   .c3_mdbg{
+    width: 1024px;
+      }
 }
 
 /*     */
@@ -727,6 +793,12 @@ text-decoration:none;
     float: left;
     background: #FFFFFF url(../images/row1_c.jpg) repeat-x bottom;
 }
+.momomo{
+  width: 768px;
+}
+.biaoge11{
+  width: 44%;
+}
 
  .c1_1{
        width: 768px;
@@ -737,9 +809,9 @@ text-decoration:none;
  .c1_left{
       display: none;
  }
- .c1_right{
+.c1_right{
      display: none;
- }
+ } 
  .c2{
        width :768px;
  }
@@ -796,7 +868,7 @@ text-decoration:none;
     margin: 0px auto;
     width: 768px;
     height: 120px;
-    background: url(../images/row3.jpg) no-repeat;
+
 
 }
 .carousel-inner>.item>img{
@@ -855,6 +927,20 @@ text-decoration:none;
   .paixu4 input{
   width: 15%;
  }
+.c3_dh{
+  display: none;
+}
+.c3_mdbg{
+  background:none;
+}
+.c3{
+  width: 100%;
+      margin-top: -15px;
+    margin-left: -10px;
+        height: 60px;
+        background: none;
+}
+
 
 
 
@@ -1043,11 +1129,11 @@ display: none;
   background:none;
 }
 .c3{
-  background:none;
   width: 100%;
       margin-top: -15px;
     margin-left: -10px;
         height: 60px;
+        background: none;
 }
 
 
@@ -1107,5 +1193,12 @@ display: none;
   width: 300px;
   height: 100px;
 }
+.momomo{
+  display: none;
+}
+
+.biaoge11{
+  display: 
+  }
 
 }

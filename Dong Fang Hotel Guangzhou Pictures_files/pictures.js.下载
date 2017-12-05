@@ -1,0 +1,15 @@
+function pic_360(datapano,str) {
+	// 创建街景
+	pano = new qq.maps.Panorama(document.getElementById(str), {
+		 pano: datapano,     //此处街景id在  http://lbs.qq.com/tool/streetview/index.html   处可取得
+		 pov:{//视角
+			 heading:119,  //偏航角
+			 pitch:-15     //俯仰角
+			 }
+	});
+}
+
+function pic_show(url)
+{
+	document.getElementById('picture_show').innerHTML='<img class="image_qnT3sf" src="'+url+'" style="cursor:pointer; width:100%;max-height:680px"/>';
+	}

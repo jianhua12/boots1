@@ -95,10 +95,10 @@ select{
 }
 .sanjiao1{
   display: none;
-}le: none;
+}
 }
 .content{
-  width: 910px;
+  width: 990px;
   margin: auto;
 }
 .bbb{
@@ -451,6 +451,7 @@ background-color: #eff4fa;
     height: 44px;
     border-bottom: 1px solid #ccc;
 }
+
 }
 /*     */
  @media(max-width: 767px){

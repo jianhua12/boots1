@@ -3,7 +3,7 @@
   margin: 0;
 }
 .content{
-   width: 910px;
+   width: 990px;
    height: 100%;
    margin: auto;
 }
@@ -97,7 +97,10 @@
         background-color: rgb(196, 35, 72);
         margin-top: 10px;
 }
-
+.wenzi111{
+  height: 260px;
+  padding:1px;
+}
 
 
 
@@ -133,6 +136,9 @@
    display:block;
   height: 15px;
 
+}
+.wenzi111{
+  height: 300px;
 }
 @media(max-width: 1024px){
 .bookduanluo{
@@ -280,5 +286,10 @@ body{
     margin: auto;
         background-color: rgb(196, 35, 72);
         margin-top: 10px;
+}
+
+  .wenzi111{
+  height: 350px;
+
 }
 }
