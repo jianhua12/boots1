@@ -741,6 +741,9 @@ padding:0 20px;
 .biaohan{
    background-color:#f3eeee;
 }
+.modal-header .close{
+  margin: 0px;
+}
  @media(max-width:  1024px){
 
  .c1{
