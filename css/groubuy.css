@@ -127,7 +127,9 @@
 .xaiozi{
 	margin-left: 17%; 
 }
-
+.p{
+	margin-left: 10px;
+}
 
 
 @media(max-width: 1024px){
