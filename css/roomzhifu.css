@@ -20,7 +20,7 @@ margin-right: 10px;
     width: 29%;
 }
 .kuang1{
-	width: 120px;
+	width: 125px;
 	height: 25px;
 }
 .duanluoq{
@@ -34,29 +34,52 @@ margin-right: 10px;
 }
 .fenhong{
 	color:  #c42348;
-	font-size: 16px;
+	font-size: 13px;
 	margin-bottom:20px; 
+ margin-top: 10px;
 }
 .anniu{
 	margin-top:60px; 
 }
 .right-right{
 	margin-top: 3px;
+  line-height: 0px;
 }
 .inp input{
 	height:25px;
 	border: 1px solid #ccc;
 }
 .inp1 input{
-	height:25px;
-	border: 1px solid #ccc;
+    height: 25px;
+    border: 1px solid #ccc;
+    margin-left: 30px;
+
 }
 .inp2 input{
 	height:25px;
 	border: 1px solid #ccc;
 }
 .yinghang .inp2{
-	width: 34%;
+	width: 35%;
+}
+.fanhui {
+    text-align: center;
+   
+}
+.anniu{
+   margin-left: 0;
+}
+.margin{
+  margin-left:30px; 
+}
+@media (max-width: 1024px){
+.fanhui {
+    text-align: center;
+    
+}
+.anniu{
+   margin-left: 0;
+}
 }
 @media (max-width: 768px){
    .yinghang span{
@@ -64,6 +87,9 @@ margin-right: 10px;
       margin-top:10px; 
       width: 100%;
    }
+   .margin{
+  margin-left:0px; 
+}
    .yinghang{
    	height: 250px;
    }
@@ -74,8 +100,25 @@ margin-right: 10px;
 .yinghang .inp2 {
     width: 100%;
     }
-   }
+   
 
+.fanhui {
+    text-align: center;
+   
+}
+.anniu{
+   margin-left: 0;
+}
+.inp1 input {
+    height: 25px;
+    border: 1px solid #ccc;
+    margin-left: 0px;
+}
+.kuang1 {
+    width: 170px;
+    height: 25px;
+}
+}
 @media (max-width: 767px){
 .yinghang{
     height: 323px;
@@ -83,8 +126,44 @@ margin-right: 10px;
 .yinghang p{
    width: 20%
 }
+.fanhui {
+    text-align: center;
+    margin-top:-30px; 
+
+}
 .yinghang .inp2 {
     width: 100%;
 
 
-}}
+}.anniu{
+   margin-left: 0;
+}
+.inp1 input {
+    height: 25px;
+    border: 1px solid #ccc;
+    margin-left: 0px;
+}
+.kuang1 {
+    width: 170px;
+    height: 25px;
+}
+.margin{
+  margin-left:0px; 
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

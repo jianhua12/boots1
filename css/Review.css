@@ -52,6 +52,10 @@
 	    margin-bottom: 20px; 
 }
 
+#chromemenu ul li .biankuang {
+    border: none;
+}
+
 
   @media(max-width: 767px){
   .wuxing{

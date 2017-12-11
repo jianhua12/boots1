@@ -51,8 +51,34 @@ body{
  .wenz111{
        padding: 0px;
       }
-
-
+ul .xiaoshijian{
+   float: left;  
+   width: 33%;
+   display: inline-block;
+   margin: auto;
+   text-align: center;
+}
+.right1 {
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: rgb(227, 227, 227);
+}
+.wenzi111 {
+    
+    padding: 1px;
+    margin-top: 5px;
+}
+.biaogetou {
+    margin-left: 5px;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #edebec;
+    padding: 5px 0 5px 0;
+    font-weight: 700;
+    text-align: left;
+}
 
       @media(max-width: 1024px){
      	.book-duanluo{
@@ -112,5 +138,9 @@ body{
            display: block;
 
           
+      }
+     ul .xiaoshijian{
+        width: 100%;
+
       }
           }

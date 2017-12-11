@@ -1,6 +1,6 @@
 *{
   margin: 0;
-  padding: 0;
+
 }
 .room-biaodan-span{
   font-size: 14px;
@@ -26,7 +26,7 @@
    border: 1px solid #ccc;
 }
 .room-button{
-  width: 144px;
+  width: 154px;
   height: 30px;
    border: none;
    background-color: rgb(196, 35, 72);
@@ -61,6 +61,7 @@ select{
   width: 60%;
       margin-left: 5px;
       line-height: 15px;
+      margin-top: -4px;
 }
 .jubu-left h4{
     font-size: 18px;
@@ -74,11 +75,12 @@ select{
 .jubu-right1{
   float: right;
   display: inline-block;
+  margin-top: 10px;
 
 }
 .usd{
     font-size: 15px;
-    margin-top: 5px;
+    margin-top: 0px;
         padding-right: 20px;
         color: red;
 
@@ -104,7 +106,7 @@ select{
 .bbb{
   display: block;
   width: 100%;
-  padding-top:5px; 
+  padding-top:0px; 
   border: 1px solid #ccc;
   border-top: none;
   border-bottom: none;
@@ -142,6 +144,7 @@ select{
       background-color: rgb(245, 245, 245);
       margin-top: -5px;
     padding-top: 8px;
+        border-top: 1px solid #ccc;
 }
 
 .td{
@@ -212,7 +215,7 @@ background-color: #eff4fa;
 .baoteble{
   background-color: #ccc;
   width: 100%;
-      height: 36px;
+      height: 20px;
     padding-top: 3px;
   background-color: rgba(241,241,241,1);
 }
@@ -251,8 +254,9 @@ background-color: #eff4fa;
     padding: 0px;
 }
  .xiaoxiaotu1{
-  width: 45%;
+  width: 48%;
   margin-top:10px;
+  float: left;
  }
  .baoxiaoxiao{
   padding: 10px;
@@ -268,8 +272,8 @@ background-color: #eff4fa;
 
   } 
 .modal-header .close {
-    margin-top: 16px;
-    margin-right: 27px;
+    margin-top: 5px;
+    margin-right: 8px;
 } 
 .wenzi1{
   border: none;
@@ -384,8 +388,74 @@ background-color: #eff4fa;
   width: 100%;
   height: 100%;
 }
-.sanjiao6{
+.sanjiao1{
   display: none;
+}
+.zhongjian1{
+  margin-top:35%;
+}
+.duiqi{
+  margin-top:-5px;
+}
+.zhaopian img{
+    margin-top: -5px;
+}
+.han label{
+  display: block;
+  text-align: center;
+}
+.biaotou11{
+  padding: 0;
+  height: 18px;
+  text-align: center;
+}
+.touzi{
+  font-size: 14px;
+  padding: 5px;
+  display: block;
+  background: #5abcf8;
+  
+  margin: 0px;
+}
+.buibui1{
+  width: 500px;
+  height: 112px;
+  position: absolute;
+  background: #fff;
+  display: none;
+
+}
+.bui1{
+position: absolute;
+
+width: 500px;
+}
+.han1{
+  padding: 0;
+    margin-top: 0px;
+    padding-top: 8px;
+    height: 64px;
+    text-align: center;
+}
+.han1 label{
+  display: block;
+
+}
+.yiru{
+  height: 35px;
+}
+.floatfint{
+  width: 300px;
+  border: 1px solid #5abcf8; 
+  position: absolute;
+  display: none;
+  background: #fff;
+}
+.padding1{
+   padding: 5px;
+}
+.zitifloe{
+  height: 30px;
 }
 @media(max-width: 1024px){
 
@@ -429,9 +499,19 @@ background-color: #eff4fa;
 }
 
   .jubu{
-  width: 100%;
+  width: 99%;
   height: 70px;
-      margin-top: 30px;
+      margin-top: 10px;
+      margin-left:6px; 
+}
+.bbb {
+    display: block;
+    width: 99%;
+    padding-top: 0px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-bottom: none;
+    margin-left: 6px;
 }
   
 
@@ -450,6 +530,28 @@ background-color: #eff4fa;
     display: block;
     height: 44px;
     border-bottom: 1px solid #ccc;
+}
+.room-button {
+    width: 148px;
+    height: 30px;
+    border: none;
+    background-color: rgb(196, 35, 72);
+    color: #fff;
+    margin-left: 2px;
+    border-radius: 5px;
+    margin-left: 4px;
+    margin-bottom: 30px;
+}
+select{
+  width: 60px;
+  height: 30px;
+  margin-left: 5px;
+}
+.gro-biaodan {
+    width: 100%;
+    margin-top: 30px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 }
@@ -481,24 +583,7 @@ background-color: #eff4fa;
   .biaoge-top {
   display: none;
 }
-
-  .td{
-    height: 100%;
-    border-bottom: 1px solid #ccc;
-}
-
-  .biaoge-left{
-    height: 100%;
-    border-bottom: 1px solid #ccc;
-    width: 50%;
-    display: inline-block;
-}
-
-  .biaoge-zhong{
-    width: 20%;
-    display: inline-block;
-}
-
+    
   .biaoge-right{
     width: 30%;
     float: right;
@@ -568,6 +653,9 @@ background-color: #eff4fa;
 
   .shouji-top .th div{
   float: left;
+    
+    padding: 0px;
+   
 
   
 }
@@ -681,5 +769,28 @@ background-color: #eff4fa;
     padding-top: 4px;
     float: right;
 }
+.shouji-top .th  .shoujizhongjian{
+   margin-top:12px;
+}
+.shouji-top .th .shouji-right{
+  margin-top: 12px;
+  height: 42px;
+}
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0,0);
+    margin-top: 50%;
+    height: 600px;
+    overflow-y: scroll;
+}
 
+.gro-biaodan {
+    width: 100%;
+    margin-top: 30px;
+    margin-top: 10px;
+    text-align: center;
+    text-align: left;
+}
 }

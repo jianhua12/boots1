@@ -47,7 +47,10 @@
       color: #fff;
   }
 
-
+#chromemenu ul li .biankuang {
+  
+    border: none;
+}
 
 
 /*      */
@@ -127,8 +130,9 @@
        }
   
        .tupian{
-       	width: 77%;
-       	height: 100%;
+       	width: 204px;
+        height: 140px;
+
        }
 
        .faq-left{
@@ -140,4 +144,4 @@
        display: block;
        color: #c42348;
      
-     }
+     }}
