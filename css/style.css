@@ -1,12 +1,218 @@
-*{margin:0px;padding:0px;}
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
+img {
+  border: none;
+}
 
-img{border:none;}
+#focusImg {
+  margin: 0px 0 0 0px;
+  height: 276px;
+  width: 100%;
+  float: left;
+  display: inline;
+  overflow: hidden;
+}
 
-#focusImg {margin:0px 0 0 0px;height: 276px;width: 100%; float:left; display:inline; overflow:hidden; }
-#focusImg .opacityDiv {position:relative; z-index:10;background:#000000; height: 25px; width: 100%; top:-24px; opacity:0.6; -moz-opacity:0.6; filter:alpha(opacity=60);}
-#focusImg h2 { position:relative; z-index:20;margin-top: -45px;left:4px;font-size:19px;height: 13px;color: #FFFFFF;line-height:18px;font-family:"宋体"; }
-#focusImg h2 a {color: #FFFFFF;}
-.focus_page{position:relative; z-index:20;margin-top: -23px;float:right; height:16px;margin-right: 6px;}
-.focus_page a,.focus_page a:visited {color:#FFFFFF;text-decoration:none;padding:1px 4px;line-height:16px; cursor:pointer;}
-.focus_page b,.focus_page a:hover {background:#FF6000;color:#FFFFFF;padding:1px 4px;line-height:16px; cursor:pointer; }
+#focusImg .opacityDiv {
+  position: relative;
+  z-index: 10;
+  background: #000000;
+  height: 25px;
+  width: 100%;
+  top: -24px;
+  opacity: 0.6;
+  -moz-opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+#focusImg h2 {
+  position: relative;
+  z-index: 20;
+  margin-top: -45px;
+  left: 4px;
+  font-size: 19px;
+  height: 13px;
+  color: #FFFFFF;
+  line-height: 18px;
+  font-family: "宋体";
+}
+
+#focusImg h2 a {
+  color: #FFFFFF;
+}
+
+.focus_page {
+  position: relative;
+  z-index: 20;
+  margin-top: -23px;
+  float: right;
+  height: 16px;
+  margin-right: 6px;
+}
+
+.focus_page a,.focus_page a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 1px 4px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.focus_page b,.focus_page a:hover {
+  background: #FF6000;
+  color: #FFFFFF;
+  padding: 1px 4px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.c1 {
+  background: url(../images/tal4.jpg) repeat-x bottom;
+  height: 140px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.c1_1 {
+  margin: 0px auto;
+  width: 1060px;
+  height: 140px;
+}
+
+.c1_left {
+  width: 31px;
+  height: 140px;
+  float: left;
+  background: url(../images/row1_l.jpg) no-repeat bottom;
+}
+
+.c1_m {
+  height: 100px;
+  overflow: hidden;
+  padding: 1px;
+  margin: 0px;
+}
+
+.c1_md {
+  width: 1000px;
+  height: 140px;
+  float: left;
+  background: #FFFFFF url(../images/row1_c.jpg) repeat-x bottom;
+}
+
+.c1_logo {
+  text-align: left;
+  margin: 2px;
+  padding: 5px;
+}
+
+.c1_dh {
+  height: 37px;
+  overflow: hidden;
+  padding: 10px 0px 0px 0px;
+  margin: 0px;
+}
+
+.c1_right {
+  width: 29px;
+  height: 140px;
+  float: left;
+  background: url(../images/row1_r.jpg) no-repeat bottom;
+}
+
+.c2 {
+  background: url(../images/cbg.jpg);
+  margin: 0px;
+  padding: 0px;
+}
+
+.c2_mdbg {
+  margin: 0px auto;
+  width: 1060px;
+  padding: 0px;
+}
+
+.c2_cmbg {
+  margin: 0px 29px 0px 31px;
+  padding-top: 0px;
+  background-color: #fff;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.c2_pt {
+  clear: both;
+  margin: 0px;
+}
+
+.c3 {
+  height: 120px;
+  background: url(../images/tal5.jpg) repeat-x;
+  margin: 0px;
+  padding: 0px;
+}
+
+.c3_mdbg {
+  margin: 0px auto;
+  width: 1024px;
+  height: 120px;
+  background: url(../images/row3.jpg) no-repeat;
+}
+
+.c3_dh {
+  padding-top: 10px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 1024px;
+  font-size: 12px;
+}
+
+.c3_dh a:hover {
+  color: #FCF1D8;
+  text-decoration: underline;
+}
+
+@media(max-width:  1024px) {
+
+  .c1 {
+    width: 1024px;
+  }
+
+  .c2 {
+    width: 1024px;
+  }
+
+  .c3 {
+    width: 1024px;
+  }
+
+  .c1_1 {
+    width: 1000px;
+  }
+
+  .c1_left {
+    display: none;
+  }
+
+  .c1_right {
+    display: none;
+  }
+
+  .c2_mdbg {
+    width: 1000px;
+  }
+
+  .c2_cmbg {
+    margin: 0px;
+  }
+
+  .c3_mdbg {
+    width: 1024px;
+  }
+}
+
+    

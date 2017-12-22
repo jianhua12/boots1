@@ -6,7 +6,7 @@
   font-size: 14px;
 }
 .room-input{
-  width: 120px;
+  width: 150px;
   height: 30px;
   background-color: #fff;
    background:url(../images/riqi.png)no-repeat 100%;
@@ -18,7 +18,7 @@
   margin-left: 10px; 
 }
 .room-input1{
-  width: 120px;
+  width: 150px;
   height: 30px;
     background-color: #fff;
    background:url(../images/riqi.png)no-repeat 100%;
@@ -26,15 +26,17 @@
    border: 1px solid #ccc;
 }
 .room-button{
-  width: 154px;
+
   height: 30px;
    border: none;
    background-color: rgb(196, 35, 72);
    color: #fff;
    margin-left: 2px; 
    border-radius:5px; 
-       margin-left: 10px;
-           margin-bottom: 30px;
+  margin-left: 10px;
+   margin-bottom: 30px;
+   padding-right: 10px;
+    padding-left: 10px;
 }
 select{
   width: 60px;
@@ -48,7 +50,7 @@ select{
     display: inline-block;
 }
 .buttom{
-  display: inline-block;
+  display:inline-flex;
 } 
 .jubu{
   width: 100%;
@@ -57,11 +59,14 @@ select{
 
 }
 .jubu-left{
-  display: inline-block;
-  width: 60%;
-      margin-left: 5px;
-      line-height: 15px;
-      margin-top: -4px;
+      display: inline-block;
+    width: 60%;
+    margin-left: 5px;
+    line-height: 15px;
+    border: none;
+    background: #eff4fa;
+    text-align: left;
+    height: 53px;
 }
 .jubu-left h4{
     font-size: 18px;
@@ -75,7 +80,7 @@ select{
 .jubu-right1{
   float: right;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 5px;
 
 }
 .usd{
@@ -142,9 +147,9 @@ select{
   height: 30px;
       color: #948585;
       background-color: rgb(245, 245, 245);
-      margin-top: -5px;
+    
     padding-top: 8px;
-        border-top: 1px solid #ccc;
+       
 }
 
 .td{
@@ -163,6 +168,7 @@ select{
  display: block;
 border: 1px solid #ccc;
 background-color: #eff4fa;
+
  }
 .jubu2{
    display: none;
@@ -175,6 +181,7 @@ background-color: #eff4fa;
   background-color:#fff; 
   color: red;
   border-bottom: 1px dashed red;
+  outline: none;
  }
  .motai-bianti{
   color: rgb(51, 119, 221);
@@ -182,7 +189,10 @@ background-color: #eff4fa;
     margin-bottom: 0px;
     font-weight: 700;
     font-size: 14px;
-    padding: 5px;
+   margin-left: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
  }
   .motai-biaopan{
             margin: 0px 3px 0px 5px;
@@ -201,14 +211,17 @@ background-color: #eff4fa;
       font-weight: 700;
     font-size: 12px;
     color: #3377dd;
-    padding: 5px;
+  
+    padding: 0px 0px 0px 5px;
 }
 
 .han{
   border: 1px solid #ccc;
   margin-top:0px; 
       padding-top: 8px;
-    height: 64px
+    height: 50px;
+    border-left: none;
+
 
 }
 
@@ -232,17 +245,16 @@ background-color: #eff4fa;
     border: none;
 }
 .bui{
-  margin-bottom:15px;
+  margin-bottom:5px;
   margin-left: 5px;
     margin-right: 5px;
 
 }
 .font-red{
   color: red;
-  padding-top:15px;
+  padding-top:10px;
   border-top:1px solid #ccc; 
-  display:block;
-  padding: 5px;
+  margin: 0;
 
 }
 .modal-header {
@@ -262,25 +274,31 @@ background-color: #eff4fa;
   padding: 10px;
  }
 .xiaoxiaobiaoti{
-      color: rgb(51, 119, 221);
+     display: inline-block;
+    color: rgb(51, 119, 221);
     width: auto;
-    margin-bottom: 12px;
+    margin-bottom: 0px;
     font-weight: 700;
     font-size: 14px;
-
-    padding-left: 10px;
+    padding-left: 15px;
+    margin-top: 18px;
+}
 
   } 
 .modal-header .close {
     margin-top: 5px;
-    margin-right: 8px;
+    margin-right: 18px;
+        width: 20px;
+    height: 20px;
 } 
 .wenzi1{
   border: none;
 }
 .two{
-  margin-top:5px;
-  margin-left:5px;  
+      margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+
 }
 
 .td:hover{
@@ -295,7 +313,7 @@ background-color: #eff4fa;
     text-align: center;
     height: 23px;
     padding-top: 4px;
-
+    border-radius: 5px
 }
 .baise:hover{
     color: #fff;
@@ -303,12 +321,13 @@ background-color: #eff4fa;
 .xiaoduluo{
 
   margin-top:30px;
-  margin-bottom: 30px; 
+ 
   padding-left:30px;  
 }
 .xiaoduluo li{
       color: red;
       list-style: square;
+      padding-right: 5px;
 }
 .bian{
   color: #000;
@@ -320,6 +339,7 @@ background-color: #eff4fa;
 
 .qian11{
   color: red;
+  border-bottom: 1px dashed red;
 }
 .th{
   display: none;
@@ -329,11 +349,14 @@ background-color: #eff4fa;
   height: 43px;
   border-right-left : 5px;
   border: 1px solid #ccc;
-  background: #fff;
-  border-radius: 0 0 0px 5px; 
+  background: #fff; 
   font-size: 16px;
       color: red;
       border: none;
+      border: 1px solid #ccc;
+      border-radius: 0px 0px 5px 5px;
+    border-left: none;
+    border-right: none;
 }
 .motaianniu2{
   width: 100%;
@@ -355,14 +378,14 @@ background-color: #eff4fa;
 .motaianniu3{
   width: 100%;
   height: 43px;
-  border-right-left : 5px;
   border: 1px solid #ccc;
   background: #fff;
   border-radius: 0 0 0px 5px; 
   font-size: 18px;
-      color: #000;
-      border: none;
-      border-top: 1px solid #ccc;
+  color: #000;
+  border: none;
+  border-top: 1px solid #ccc;
+  border-radius: 5px;
 }
 .modal-footer{
   padding: 0px;
@@ -374,15 +397,14 @@ background-color: #eff4fa;
 .fangxing{
       border: 1px solid #ccc;
       border-top: none;
-      padding: 5px 0px 5px 9px;
+      padding: 5px 0px 5px 6px;
       
-
-  
 }
 .fangtu{
   width: 90px;
   height: 90px;
     display: inline-block;
+        margin-top: 5px;
 }
 .fangtu img{
   width: 100%;
@@ -392,7 +414,7 @@ background-color: #eff4fa;
   display: none;
 }
 .zhongjian1{
-  margin-top:35%;
+
 }
 .duiqi{
   margin-top:-5px;
@@ -423,12 +445,12 @@ background-color: #eff4fa;
   position: absolute;
   background: #fff;
   display: none;
+  border: 1px solid #5abcf8;
 
 }
 .bui1{
 position: absolute;
-
-width: 500px;
+width: 498px;
 }
 .han1{
   padding: 0;
@@ -443,6 +465,7 @@ width: 500px;
 }
 .yiru{
   height: 35px;
+      text-align: center;
 }
 .floatfint{
   width: 300px;
@@ -453,10 +476,58 @@ width: 500px;
 }
 .padding1{
    padding: 5px;
+  
 }
 .zitifloe{
   height: 30px;
+      padding: 0;
 }
+.bbbb3{
+  display: none;
+}
+.bbbb4{
+  display:block;
+}
+.text-align{
+  text-align: center;
+}
+.zhaopian{
+  text-align: center;
+}
+.c2_cmbg {
+    padding-top: 0px;
+    background-color: #fff;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+}
+.modal-open .modal {
+    overflow-x: hidden; 
+    overflow-y: auto;
+}
+.dabui{
+ overflow-y: scroll;
+    height: 250px;
+
+
+}
+.modal-header .close {
+    margin: 5px 10px 5px 0px;
+    padding: 4px 5px 0 0;
+    opacity: 1;
+}
+.tuwenzhi{
+
+  margin:5px 0 0 0;
+  font-size: 13px;
+  padding:0; 
+      padding-right: 5px;
+}
+.modal-header{
+  border-radius: 5px;
+}
+
 @media(max-width: 1024px){
 
   .dajubu{
@@ -480,6 +551,28 @@ width: 500px;
     border-bottom: 1px dashed red;
         font-size: 14px;
   }
+  .fangxing{
+    margin: 0px 0px 0px 0px;
+
+
+
+  }
+  .room-input1{
+  width: 120px;
+  height: 30px;
+    background-color: #fff;
+   background:url(../images/riqi.png)no-repeat 100%;
+   border: none;
+   border: 1px solid #ccc;
+}
+.room-input{
+  width: 120px;
+  height: 30px;
+  background-color: #fff;
+   background:url(../images/riqi.png)no-repeat 100%;
+   border: none;
+   border: 1px solid #ccc;
+}
 }
 
 
@@ -532,7 +625,6 @@ width: 500px;
     border-bottom: 1px solid #ccc;
 }
 .room-button {
-    width: 148px;
     height: 30px;
     border: none;
     background-color: rgb(196, 35, 72);
@@ -541,11 +633,13 @@ width: 500px;
     border-radius: 5px;
     margin-left: 4px;
     margin-bottom: 30px;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 select{
-  width: 60px;
-  height: 30px;
-  margin-left: 5px;
+  width: 13%;
+    height: 30px;
+    margin-left: 5px;
 }
 .gro-biaodan {
     width: 100%;
@@ -554,6 +648,17 @@ select{
     text-align: center;
 }
 
+.fangxing{
+      border: 1px solid #ccc;
+      border-top: none;
+      padding: 5px 0px 5px 6px;
+          margin: 0px 2px 5px 6px; 
+}
+ .modal-header  .dashacha{
+      margin: 0px;
+    padding: 13px;
+    opacity: 1;
+}
 }
 /*     */
  @media(max-width: 767px){
@@ -661,18 +766,24 @@ select{
 }
 
 .shouji-left{
-   width: 47%;
-   padding-left:5px;
+  width: 41%;
+    padding-left: 5px;
+    float: left;
+    background: #fff;
+    border: none;
+    height: 52px;
+    text-align: left;
+    outline: none;
 }
 
  .shoujizhongjian{
-   width: 25%;
+   width: 30%;
    padding-top: 13px;
     padding-left:5px;
 }
 
 .shouji-right{
-   width: 25%;
+   width: 28%;
    height: 55px;
    padding-top: 10px;
 
@@ -684,7 +795,7 @@ select{
     display: inline-block;
     text-align: center;
     color: rgb(13, 20, 186);
-     background-color: rgba(237,230,230,1);
+ 
 }
 
 
@@ -722,6 +833,7 @@ select{
  display: block;
  margin-top:10px; 
  background-color: #eff4fa;
+ height: 70px;
  }
 .jubu{
    display: none;
@@ -763,11 +875,11 @@ select{
     color: #fff;
     background-color: #ce2323;
     display: block;
-    width: 35px;
     text-align: center;
     height: 23px;
     padding-top: 4px;
     float: right;
+        border-radius: 5px;
 }
 .shouji-top .th  .shoujizhongjian{
    margin-top:12px;
@@ -777,13 +889,16 @@ select{
   height: 42px;
 }
 .modal.in .modal-dialog {
-    -webkit-transform: translate(0,0);
+      -webkit-transform: translate(0,0);
     -ms-transform: translate(0,0);
     -o-transform: translate(0,0);
-    transform: translate(0,0);
-    margin-top: 50%;
-    height: 600px;
-    overflow-y: scroll;
+    transform: translate(-50%,-50%);
+
+    position: absolute;
+    left: 50;
+    left: 50%;
+    top: 50%;
+    width: 92%;
 }
 
 .gro-biaodan {
@@ -793,4 +908,84 @@ select{
     text-align: center;
     text-align: left;
 }
+.baoteble .biaotou1{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 10;
+    font-size: 12px;
+}
+.baoteble .biaotou1 label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 10;
+    font-size: 12px;
+    text-align: center;
+}
+label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-size: 12px;
+        margin-top: 3px;
+}
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+.hanhan1{
+  border-left:1px solid #ccc;  
+}
+.tuwenzhi{
+
+  margin:5px 0 0 0;
+  font-size: 12px;
+  padding:0; 
+}
+.jubu-left {
+    display: inline-block;
+    width: 60%;
+    margin-left: 5px;
+    line-height: 15px;
+    border: none;
+    background: #eff4fa;
+    text-align: left;
+    height: 70px;
+    font-size: 12px;
+        outline: none;
+
+}
+.xiaoxiaobiaoti {
+    display: inline-block;
+    color: rgb(51, 119, 221);
+    width: auto;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 15px;
+    margin-top: 9px;
+}
+select {
+    width: 20%;
+    height: 30px;
+    margin-left: 5px;
+    }
+    .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 0px; 
+
+}
+.btn-lgs{
+  background: none;
+    border: none;
+    color: red;
+    border-bottom: 1px dashed red;
+    outline: none;
+}
+
+
 }

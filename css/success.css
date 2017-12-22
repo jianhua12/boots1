@@ -1,0 +1,25 @@
+.pick-content .right {
+    float: right;
+    width: 34%;
+    height: 986px;
+    padding-left: 5px;
+    background-color: #fcfcfc;
+}
+
+ @media(max-width: 768px){
+
+ 	.pick-content .right {
+    float: right;
+    width: 34%;
+    height: 1047px;
+    padding-left: 5px;
+    background-color: #fcfcfc;
+}
+}
+
+ @media(max-width: 767px){
+.xiaori{
+    display: inline-block;
+    width: 65%;
+}
+}

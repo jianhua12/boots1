@@ -9,6 +9,7 @@
 	border: 5px solid  rgb(250, 214, 25);
 	border-radius: 10px;
 	height: 100%;
+  margin-top:5px; 
 }
 .tupian{
 	width: 204px;
@@ -60,7 +61,7 @@
 	height: 100%;
 	margin: auto;
 	border:1px solid #ccc; 
-
+  margin-top: 5px;
 }
 .faq-left{
 	width: 40%;
@@ -70,6 +71,9 @@
 	border: 1px solid #ccc;
 	height: 35px;
 	width: 100%;
+      border-left: none;
+    border-bottom: none;
+        border-top: none;
 
 }
 .faq1-tupian img{
@@ -80,6 +84,8 @@
 	height:100%;
 	border: 1px solid #ccc;
 	padding-top:20px; 
+  border-left: none;
+  border-bottom: none;
 }
 .faq1-wenz{
 	width: 100%;
@@ -114,15 +120,28 @@
        display: none;
        
      }
+     .c2_cmbg {
+    padding-top: 0px;
+    background-color: #fff;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+}
      
 
 /*    */
 
       @media(max-width: 767px){
        .faq1-content{
-       	width: 100%;
-       	height: 100%;
-       }
+    width: 97%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+    margin: auto;
+    margin-top: 5px;
+}
+       
 
        .faq-right{
        	width: 100%;

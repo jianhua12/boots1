@@ -1,146 +1,249 @@
-body{
-  background-color:#6c0c0d;
+body {
+  background-color: #6c0c0d;
 }
-.youjian{
-	margin-top:0px; 
+
+.youjian {
+  margin-top: 0px;
 }
-.book-duanluo{
-	width: 100%;
-	height: 100%;
-  margin-top:5px; 
+
+.book-duanluo {
+  width: 100%;
+  height: 100%;
+  margin-top: 5px;
   border: 1px solid #ccc;
-
 }
 
-.book-duanluo span{
-	background-color: #e5f0fb;
+.book-duanluo span {
+  background-color: #e5f0fb;
   padding-left: 5px;
   font-size: 16px;
   display: block;
-
-
-
 }
-.book-duanluo h5{
+
+.book-duanluo h5 {
   padding-left: 5px;
-
 }
-.book-duanluo p{
 
+.book-duanluo p {
   padding-left: 5px;
+}
 
+.duanluo div {
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
-.duanluo div{
-	margin-bottom: 30px;
-	margin-top: 30px;
-}
-.dibuwenz{
-	width: 100%;
-	background-color:#fff;
-	height: 20px;
+
+.dibuwenz {
+  width: 100%;
+  background-color: #fff;
+  height: 20px;
   border-left: 5px solid #ccc;
   border-right: 5px solid #ccc;
 }
-.kong{
-    display: none;
+
+.kong {
+  display: none;
 }
-.i5-dibu{
-	width: 930px;
-	margin: 0 auto;
+
+.i5-dibu {
+  width: 930px;
+  margin: 0 auto;
 }
- .wenz111{
-       padding: 0px;
-      }
-ul .xiaoshijian{
-   float: left;  
-   width: 33%;
-   display: inline-block;
-   margin: auto;
-   text-align: center;
+
+.wenz111 {
+  padding: 0px;
 }
+
+ul .xiaoshijian {
+  float: left;
+  width: 33%;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+}
+
 .right1 {
-    padding-top: 30px;
-    text-align: center;
-    padding-bottom: 10px;
-    background-color: rgb(227, 227, 227);
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: rgb(227, 227, 227);
+  text-align: center;
 }
+
 .wenzi111 {
-    
-    padding: 1px;
-    margin-top: 5px;
+  padding: 1px;
+  margin-top: 5px;
 }
+
 .biaogetou {
-    margin-left: 5px;
-    font-size: 14px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    background-color: #edebec;
-    padding: 5px 0 5px 0;
-    font-weight: 700;
-    text-align: left;
+  margin-left: 5px;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #edebec;
+  padding: 5px 0 5px 0;
+  font-weight: 700;
+  text-align: left;
 }
 
-      @media(max-width: 1024px){
-     	.book-duanluo{
-            width: 100%;
-            border: 5px solid #ccc;
+.paixu-right {
+  display: inline;
+  width: 20%;
+  margin-left: 5px;
+}
 
-     	}
+.xiaotupian {
+  padding-left: 20px;
+}
 
-     	.kong{
-           width: 100%;
-           height: 860px;
-           display: block;
-          
-     	}
+.modal-header .close {
+  margin: 5px 10px 5px 0px;
+  padding: 1px;
+  opacity: 1;
+}
 
-     	.dibu{
-            width: 100%;
-          
-     	}
-     }
-       @media(max-width: 768px){
-     	.book-duanluo{
-            width: 100%;
-            border: 5px solid #ccc;
-     	}
- 
-     	.dibu{
-            width: 100%;
-          
-     	}
+@media(max-width: 1024px) {
+  .book-duanluo {
+    width: 100%;
+    border: 5px solid #ccc;
+  }
 
-     	.kong{
-            width: 100%;
-            height: 470px;
-          
-     	}
-     }
-        @media(max-width: 767px){
-     	.book-duanluo{
-            width: 100%;
-            border: 5px solid #ccc;
-            font-size: 12px;
-     	}
+  .kong {
+    width: 100%;
+    height: 860px;
+    display: block;
+  }
 
-     	.dibu{
-            width: 100%;
-          
-     	}
+  .dibu {
+    width: 100%;
+  }
+}
 
-     	.kong{
-           display: none;
-          
-     	}
- 
-      .kong{
-           height: 100px;
-           display: block;
+@media(max-width: 768px) {
+  .book-duanluo {
+    width: 100%;
+    border: 5px solid #ccc;
+  }
 
-          
-      }
-     ul .xiaoshijian{
-        width: 100%;
+  .dibu {
+    width: 100%;
+  }
 
-      }
-          }
+  .paixu3 input {
+    height: 30px;
+    border: 1px solid #ccc;
+    background: url(../images/riqi.png)no-repeat 100%;
+    width: 125px;
+    background-color: #fff;
+  }
+
+  .paixu4 input {
+    height: 30px;
+    border: 1px solid #ccc;
+    background: url(../images/riqi.png)no-repeat 100%;
+    background-color: #fff;
+    width: 125px;
+  }
+
+  .kong {
+    width: 100%;
+    height: 470px;
+  }
+
+  .right1 {
+    text-align: left;
+    width: 100%;
+    padding-left: 0px;
+    text-align: center;
+  }
+
+  .xiaotupian {
+    padding-left: 20px;
+  }
+
+  .momomo1 {
+    overflow-y: scroll;
+    height: 600px;
+    margin-top: 0px;
+  }
+
+  .toubu1 {
+    background-color: #edebec;
+    padding: 2px;
+    text-align: center;
+  }
+}
+
+@media(max-width: 767px) {
+  .book-duanluo {
+    width: 100%;
+    border: 5px solid #ccc;
+    font-size: 12px;
+  }
+
+  .dibu {
+    width: 100%;
+  }
+
+  .kong {
+    display: none;
+  }
+
+  .kong {
+    height: 100px;
+    display: block;
+  }
+
+  ul .xiaoshijian {
+    width: 100%;
+  }
+
+  .paixu-right {
+    display: inline;
+    width: 46%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .tuanniu1 {
+    width: 95%;
+    margin: 0;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 7px;
+  }
+
+  .right1 span {
+    font-size: 14px;
+    font-weight: 700;
+    display: inherit;
+    text-align: left;
+  }
+
+  .paixu-left {
+    float: left;
+    width: 46%;
+    margin-left: 2%;
+  }
+
+  .xiaotupian {
+    padding-left: 6px;
+  }
+
+  .paixu4 input {
+    height: 30px;
+    border: 1px solid #ccc;
+    background: url(../images/riqi.png)no-repeat 100%;
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .paixu3 input {
+    height: 30px;
+    border: 1px solid #ccc;
+    background: url(../images/riqi.png)no-repeat 100%;
+    width: 100%;
+    background-color: #fff;
+  }
+}

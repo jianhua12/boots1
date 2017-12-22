@@ -1,106 +1,133 @@
-
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-  overflow-y:scroll; 
-}
-.dadatu{
-    width: 100%;
-   margin: auto;
-   height: 500px;
-}
-.dadatu img{
-    width: 100%;
-    height: 100%;
-}
-.xiaotupian{
-    width: 100%;
-    margin-top:30px;
-    margin: auto;
-}
-.datupian{
-    width: 100px;
-    height: 100px;
-    float: left;
-    margin-left:10px; 
-    margin-top:9px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.datupian img{
- width: 100%;
- height: 100%;
+body {
+  overflow-y: scroll;
 }
-.sanliudu{
-    margin-top:15px;
-    margin-bottom: 15px;
-    margin-left: 20px;
-    color: rgb(196, 35, 72);
-    font-size: 14px;
-        display: inline-block;
-    font-weight: 700;
+
+.dadatu {
+  width: 100%;
+  margin: auto;
+  height: 500px;
 }
-.block{
+
+.dadatu img {
+  width: 100%;
+  height: 100%;
+}
+
+.xiaotupian {
+  width: 100%;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.datupian {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 9px;
+}
+
+.datupian img {
+  width: 100%;
+  height: 100%;
+}
+
+.sanliudu {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  color: rgb(196, 35, 72);
+  font-size: 14px;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.block {
   display: none;
 }
-.huangu{
-  height: 650px;
 
+.huangu {
+  height: 650px;
 }
-embed{
+
+.c2_cmbg {
+  padding-top: 0px;
+  background-color: #fff;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+}
+
+embed {
   width: 900px;
   height: 600px;
 }
 /*   */
-
-  @media(max-width: 768px){
-    body{
-  overflow-y:scroll; 
+.tutupian {
+  padding-left: 20px;
 }
 
-       .datupian{
-        margin-left:8px; 
-       }
-       .image_MJS7B2{
-        width: 12%;
-        margin: 7px;
-       }
-       
- embed{
-  width: 92%;
-  height: 460px;
+@media(max-width: 768px) {
+  body {
+    overflow-y: scroll;
+  }
 
-}
-.huangu{
-  height: 460px;
-}
-     }
+  .datupian {
+    margin-left: 8px;
+  }
 
-       @media(max-width: 767px){
-        body{
-  overflow-y:scroll; 
+  .image_MJS7B2 {
+    width: 12%;
+    margin: 7px;
+  }
+
+  embed {
+    width: 92%;
+    height: 460px;
+  }
+
+  .huangu {
+    height: 460px;
+  }
 }
 
-       .datupian{
+@media(max-width: 767px) {
+  body {
+    overflow-y: scroll;
+  }
+
+  .datupian {
     margin-left: 9px;
     width: 30%;
-       }
-       .dadatu{
-        height: 250px;
-       } 
-       
-       embed{
-  width: 92%;
-  height: 245px;
-}
-.huangu{
-  height: 345px;
-}
-    .image_MJS7B2{
-        width: 29%;
-        margin: 5px;
-       }
+  }
+
+  .dadatu {
+    height: 250px;
+  }
+
+  embed {
+    width: 92%;
+    height: 245px;
+  }
+
+  .huangu {
+    height: 345px;
+  }
+
+  .image_MJS7B2 {
+    width: 29%;
+    margin: 5px;
+  }
+
+  .tutupian {
+    padding-left: 9px;
+  }
 }
 
 
