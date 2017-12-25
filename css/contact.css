@@ -172,6 +172,12 @@ ul .xiaoshijian {
     padding: 2px;
     text-align: center;
   }
+
+.content {
+    overflow: hidden;
+    width: 768px;
+    height: 100%;
+}
 }
 
 @media(max-width: 767px) {

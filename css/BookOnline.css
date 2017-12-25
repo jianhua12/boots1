@@ -12,6 +12,8 @@
 
 .book-jubu {
   width: 100%;
+  height: 100%;
+  display:table;
 }
 
 .book-left {
@@ -33,14 +35,16 @@
 .book-right {
   width: 34%;
   float: right;
-  margin-top: 15px;
-  height: 698px;
+  padding-top:15px;
+  height: 713px;
   padding-left: 7px;
   background-color: #fcfcfc;
+      display: inline-block;
 }
 
 .youtu1 {
   width: 100%;
+  height: 181px;
 }
 
 .youtu1 img {
@@ -468,6 +472,7 @@ select {
   width: 1000px;
   height: 100%;
   margin: auto;
+  display: grid;
 }
 
 .c2_cmbg {
@@ -497,6 +502,7 @@ select {
   border-top: none;
   display: block;
   padding: 5px;
+
 }
 
 .aaaa1 {
@@ -632,6 +638,9 @@ select {
   #buibui1 {
     display: none;
   }
+  .c2_pt {
+    width: 0%;
+}
 
   .book-left {
     width: 60%;
@@ -675,7 +684,7 @@ select {
 
 @media(max-width: 768px) {
   .book-jubu {
-    width: 100%;
+    width: 768px;
   }
 
   .book-left {
@@ -686,7 +695,7 @@ select {
   }
 
   .content {
-    width: 100%;
+    width: 768px;
     height: 100%;
   }
 
@@ -808,6 +817,12 @@ select {
   .book-biaodan111 {
     margin-left: 22%;
   }
+.content {
+    overflow: hidden;
+    width: 768px;
+    height: 100%;
+
+}
 }
 /*     */
 
@@ -832,7 +847,8 @@ select {
 
   .content {
     width: 100%;
-    height: 100%
+    height: 100%;
+    display: -webkit-inline-box;
   }
 
   .book-right {
@@ -1097,9 +1113,9 @@ select {
   }
 
   .modal.in .modal-dialog {
-    -webkit-transform: translate(0,0);
-    -ms-transform: translate(0,0);
-    -o-transform: translate(0,0);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
     position: absolute;
     left: 50;

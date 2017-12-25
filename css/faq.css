@@ -62,18 +62,19 @@
 	margin: auto;
 	border:1px solid #ccc; 
   margin-top: 5px;
+  display: inline-block;
+  margin-bottom: 40px; 
+
 }
 .faq-left{
 	width: 40%;
 	height: 100%;
 }
 .faq1-tupian{
-	border: 1px solid #ccc;
+
 	height: 35px;
 	width: 100%;
-      border-left: none;
-    border-bottom: none;
-        border-top: none;
+
 
 }
 .faq1-tupian img{
@@ -86,6 +87,7 @@
 	padding-top:20px; 
   border-left: none;
   border-bottom: none;
+  border-right: none;
 }
 .faq1-wenz{
 	width: 100%;
@@ -97,6 +99,16 @@
    font-weight: 700;   
    font-size: 35px;
    margin-left:10px; 
+   width: 7%;
+   display: inline-block;
+}
+.wen2{
+   width: 80%;
+   display: inline-block;
+}
+.faq1-wenz .wen3{
+   float: right;
+   display: inline-block;
 }
 .faq1-fleat{
 	float: right;
@@ -104,12 +116,19 @@
 }
 .faq-right{
 	float: right;
-	height: 360px;
-  padding-left: 10px;
+    height: 100%;
+    padding-left: 10px;
+    width: 60%;
+    border-left: 1px solid #ccc;
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-right: 5px;
+    padding-bottom: 30px;
+}
 }
 .tupin{
 	width: 280px;
-	height: 240px;
+	height: 100%;
 	margin-top:66px;  
 	margin-right: 100px;
 }
@@ -146,6 +165,7 @@
        .faq-right{
        	width: 100%;
        	height: 100%;
+        border: none;
        }
   
        .tupian{

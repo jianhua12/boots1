@@ -10,12 +10,13 @@
   <meta name="renderer" content="webkit" /> 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
   <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" /> 
+   <script src="jquery-3.1.1/jquery-3.1.1.min.js"></script> 
   <title>Soluxe Hotel Guangzhou, China</title> 
   <link href="css/style.css" rel="stylesheet" type="text/css" /> 
   <link href="css/index.css" rel="stylesheet" type="text/css" /> 
   <link href="css/bookinghelp.css" rel="stylesheet" type="text/css" /> 
   <link rel="stylesheet" href="css/groubuy.css" /> 
-  <script src="jquery-3.1.1/jquery-3.1.1.min.js"></script> 
+ 
   <script src="js/index1.js"></script> 
  </head> 
  <body> 
@@ -129,20 +130,20 @@
         <p class="h">| Select Vehicle</p> 
        </div> 
        <div class="cheche1" style="display: inline-block;width: 100%;height: 100%;"> 
-        <div class="cheche3 cheche8"> 
-         <div class="cheche2 cheche4"> 
+        <div  style="CURSOR: pointer;" class="cheche3 cheche8"> 
+         <div  style="cursor: pointer;"  class="cheche2 cheche4"> 
           <p class="xiaoxiaozi">XX Seat Car</p> 
           <img src="images/cheche1.gif" alt="" /> 
          </div> 
         </div> 
         <div class="cheche3 cheche10"> 
-         <div class="cheche2 cheche6"> 
+         <div style="cursor: pointer;" class="cheche2 cheche6"> 
           <p class="xiaoxiaozi">7 Seater Economic Vehicle</p> 
           <img src="images/cheche2.jpg" alt="" /> 
          </div> 
         </div> 
         <div class="cheche3 cheche11"> 
-         <div class=" cheche2 cheche7"> 
+         <div style="cursor: pointer;" class=" cheche2 cheche7"> 
           <p class="xiaoxiaozi">14 Seater Economic Vehicle</p> 
           <img src="images/cheche2.jpg" alt="" /> 
          </div> 
@@ -243,16 +244,23 @@
     </div> 
    </div> 
   </div> 
-  <script>
-  $(function(){
-    $('.cheche3').click(function(){
-      $(this).children('.cheche2').css('background','url(images/beijche.jpg)no-repeat 100%/100%')
-      $(this).siblings('.cheche3').children('.cheche2').css('background','url(images/beijche.jpg)no-repeat 100%/0%')
-    })
-  })
 
- </script> 
-  <script src="jquery-3.1.1/jquery-3.1.1.min.js"></script> 
+
+<script>
+ 
+    $(function (){
+          $('.cheche3').click(function(){
+      $(this).children('.cheche2').css('background','url(images/beijche.jpg)')
+
+      $(this).siblings('.cheche3').children('.cheche2').css('background','none')
+           })
+
+
+    })
+
+</script>
+   
+ <script src="jquery-3.1.1/jquery-3.1.1.min.js"></script> 
   <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>   
  </body>
 </html>

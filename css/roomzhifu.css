@@ -116,16 +116,17 @@ margin-right: 10px;
 .pick-content .right {
     float: right;
     width: 34%;
-    height: 837px;
+    height: 850px;
     padding-left: 10px;
     background: #fcfcfc;
+    display: inline-block
 }
 .fenhong1{
    padding-right: 5px;
 }
 .dawenz{
   width: 100%;
-  display: inline-flex;
+  display: inline-block;
 }
 .daleft{
   width: 30%;
@@ -136,6 +137,9 @@ margin-right: 10px;
   width: 69%;
   float: left;
   display: inline-block;
+}
+.aceb{
+  padding-top: 5px;
 }
 @media (max-width: 1024px){
 .fanhui {
@@ -151,6 +155,7 @@ margin-right: 10px;
       display: flex;
       margin-top:10px; 
       width: 100%;
+    display: -webkit-box;
    }
    .margin{
   margin-left:0px; 
@@ -184,7 +189,7 @@ margin-right: 10px;
     height: 25px;
 }
 .inp2 .inputaa {
-    width: 22%;
+    width: 90%;
 }
 .xiaomoge{
   margin-top: 5px;
@@ -269,12 +274,12 @@ margin-right: 10px;
   margin-left: 15px; 
 }
 .aa li {
-    width: 60px;
-    height: 48px;
+        width: 80px;
+    height: 58px;
 }
 .shuaka {
     margin-top: 5px;
-    height: 130px;
+    height: 195px;
     margin-bottom: 10px;
     width: 98%;
 }
@@ -298,6 +303,9 @@ margin-right: 10px;
     width: 68%;
     float: left;
     display: inline-block;
+}
+.aceb{
+  padding-top: 0px;
 }
 
 

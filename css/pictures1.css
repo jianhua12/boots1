@@ -100,18 +100,26 @@
     margin: auto;
     margin-top: 30px;
     display: -webkit-inline-box;   
+    -webkit-transform:  rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -o-transform: rotate(45deg);
 }
 .left a:after{
     content:"";
      width: 20px;
     height: 20px;
+    margin: auto;
+    margin-top: 30px;
     border: 3px solid #ecf3f7;
     border-right: none;
     border-top: none;
     transform: rotate(45deg);
-    margin: auto;
-    margin-top: 30px;
-    display: -webkit-inline-box;    
+    display: -webkit-inline-box;
+      -webkit-transform:rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);    
 }
 @media(max-width: 768px) {
 

@@ -12,6 +12,7 @@
    background:url(../images/riqi.png)no-repeat 100%;
    border: none;
    border: 1px solid #ccc;
+   display: inline;
 }
 .room-biaodan-span1{
   font-size: 14px;
@@ -24,6 +25,7 @@
    background:url(../images/riqi.png)no-repeat 100%;
    border: none;
    border: 1px solid #ccc;
+   display: inline;
 }
 .room-button{
 
@@ -50,7 +52,7 @@ select{
     display: inline-block;
 }
 .buttom{
-  display:inline-flex;
+  display:inline-block;
 } 
 .jubu{
   width: 100%;
@@ -889,10 +891,10 @@ select{
   height: 42px;
 }
 .modal.in .modal-dialog {
-      -webkit-transform: translate(0,0);
-    -ms-transform: translate(0,0);
-    -o-transform: translate(0,0);
-    transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
 
     position: absolute;
     left: 50;
@@ -934,6 +936,7 @@ label{
 .modal-open .modal {
     overflow-x: hidden;
     overflow-y: hidden;
+    width: 98%;
 
 }
 .hanhan1{

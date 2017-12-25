@@ -40,6 +40,23 @@
   	height:550px;
   	border:#ccc solid 1px;
 	}
+  @media (max-width: 768px){
+.content {
+    overflow: hidden;
+    width: 768px;
+    height: 100%;
+}
+.wenzi{
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    width: 744px;
+    margin-left: 1%;
+}
+.bookduanluo {
+    margin-bottom: 30px;
+    width: 742px;
+}
+}
  @media(max-width: 767px){
      	.ditu{
             width: 100%;
