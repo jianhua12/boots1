@@ -151,6 +151,10 @@
   padding-top: 5px;
 }
 
+.daleft1 {
+    display: inline-block;
+    width: 25%;
+}
 @media(max-width:  768px) {
   .daleft {
     display: inline-block;
@@ -207,6 +211,10 @@
     display: inline-block;
     width: 20%;
   }
+  .daleft1 {
+    display: inline-block;
+    width: 20%;
+}
 }
 
 @media(max-width:  767px) {
@@ -278,6 +286,10 @@
   .aceb{
   padding-top: 0px;
 }
+    .daleft1 {
+    display: inline-block;
+    width: 28%;
+}
 }
 
 @media(min-width: 567px) and (max-width:737px) {
@@ -285,4 +297,5 @@
     height: 66px;
     width: 360px;
   }
+
 }

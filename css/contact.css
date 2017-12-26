@@ -252,4 +252,9 @@ ul .xiaoshijian {
     width: 100%;
     background-color: #fff;
   }
+.content {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
 }

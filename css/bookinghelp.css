@@ -169,7 +169,7 @@
     .wenzi {
         border: 1px solid #ccc;
         margin-bottom: 5px;
-        width: 744px;
+        width: 98%;
         margin-left: 1%;
         display:inline-block;
     }
@@ -218,7 +218,7 @@
     
 .bookduanluo {
     margin-bottom: 30px;
-    width:742px;
+    width:100%;
 }
 }
 

@@ -57,14 +57,15 @@
 /*      */
 
 .faq1-content{
-	width: 96%;
-	height: 100%;
-	margin: auto;
-	border:1px solid #ccc; 
-  margin-top: 5px;
-  display: inline-block;
-  margin-bottom: 40px; 
 
+    width: 98%;
+    height: 100%;
+    margin: auto;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    margin-left: 1%;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 .faq-left{
 	width: 40%;
@@ -120,8 +121,8 @@
     padding-left: 10px;
     width: 60%;
     border-left: 1px solid #ccc;
-    padding-left: 15%;
-    padding-top: 5%;
+    padding-left: 5%;
+    padding-top: 10%;
     padding-right: 5px;
     padding-bottom: 30px;
 }
