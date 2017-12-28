@@ -92,11 +92,10 @@ margin-top:15px;
 	width: 260px;
 	height: 126px;
 	background: none;
-	border: 1px solid rgba(255,255,255,.15); 
     cursor:pointer;
     z-index: 999;
     display: inline-block;
-
+    border: 1px solid rgba(0,0,0,.0001);
 
 }
 .cheche3{

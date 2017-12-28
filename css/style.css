@@ -83,7 +83,7 @@ img {
 }
 
 .c1_left {
-  width: 31px;
+  width: 30px;
   height: 140px;
   float: left;
   background: url(../images/row1_l.jpg) no-repeat bottom;
@@ -117,7 +117,7 @@ img {
 }
 
 .c1_right {
-  width: 29px;
+  width: 30px;
   height: 140px;
   float: left;
   background: url(../images/row1_r.jpg) no-repeat bottom;
@@ -136,7 +136,7 @@ img {
 }
 
 .c2_cmbg {
-  margin: 0px 29px 0px 31px;
+  margin: 0px 30px 0px 30px;
   padding-top: 0px;
   background-color: #fff;
   padding-bottom: 5px;
@@ -158,16 +158,16 @@ img {
 
 .c3_mdbg {
   margin: 0px auto;
-  width: 1024px;
+  width: 1000px;
   height: 120px;
-  background: url(../images/row3.jpg) no-repeat;
+
 }
 
 .c3_dh {
+  width: 1000px;
   padding-top: 10px;
   text-align: center;
   color: #FFFFFF;
-  width: 1024px;
   font-size: 12px;
 }
 
@@ -211,7 +211,7 @@ img {
   }
 
   .c3_mdbg {
-    width: 1024px;
+    width: 1000px;
   }
 }
 

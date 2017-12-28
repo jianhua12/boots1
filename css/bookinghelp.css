@@ -157,7 +157,7 @@
 @media(max-width: 768px) {
     .content {
         overflow: hidden;
-        width: 760px;
+        width: 768px;
         height: 100%;
         margin: auto;
     }
